@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		FDD289601B11AD28009F3804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD2895F1B11AD28009F3804 /* main.m */; };
 		FDD289631B11AD28009F3804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD289621B11AD28009F3804 /* AppDelegate.m */; };
-		FDD289661B11AD28009F3804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD289651B11AD28009F3804 /* ViewController.m */; };
-		FDD289691B11AD28009F3804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD289671B11AD28009F3804 /* Main.storyboard */; };
 		FDD2896B1B11AD28009F3804 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD2896A1B11AD28009F3804 /* Images.xcassets */; };
-		FDD2896E1B11AD28009F3804 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD2896C1B11AD28009F3804 /* LaunchScreen.xib */; };
 		FDD2897A1B11AD28009F3804 /* yes_xib_no_storyboard_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD289791B11AD28009F3804 /* yes_xib_no_storyboard_ocTests.m */; };
+		FDD289861B11AD6B009F3804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD289841B11AD6B009F3804 /* ViewController.m */; };
+		FDD289871B11AD6B009F3804 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD289851B11AD6B009F3804 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		FDD2895F1B11AD28009F3804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDD289611B11AD28009F3804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDD289621B11AD28009F3804 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDD289641B11AD28009F3804 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FDD289651B11AD28009F3804 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FDD289681B11AD28009F3804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDD2896A1B11AD28009F3804 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FDD2896D1B11AD28009F3804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FDD289731B11AD28009F3804 /* yes_xib_no_storyboard_ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yes_xib_no_storyboard_ocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD289781B11AD28009F3804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD289791B11AD28009F3804 /* yes_xib_no_storyboard_ocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yes_xib_no_storyboard_ocTests.m; sourceTree = "<group>"; };
+		FDD289831B11AD6B009F3804 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDD289841B11AD6B009F3804 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDD289851B11AD6B009F3804 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +81,10 @@
 			children = (
 				FDD289611B11AD28009F3804 /* AppDelegate.h */,
 				FDD289621B11AD28009F3804 /* AppDelegate.m */,
-				FDD289641B11AD28009F3804 /* ViewController.h */,
-				FDD289651B11AD28009F3804 /* ViewController.m */,
-				FDD289671B11AD28009F3804 /* Main.storyboard */,
+				FDD289831B11AD6B009F3804 /* ViewController.h */,
+				FDD289841B11AD6B009F3804 /* ViewController.m */,
+				FDD289851B11AD6B009F3804 /* ViewController.xib */,
 				FDD2896A1B11AD28009F3804 /* Images.xcassets */,
-				FDD2896C1B11AD28009F3804 /* LaunchScreen.xib */,
 				FDD2895D1B11AD28009F3804 /* Supporting Files */,
 			);
 			path = yes_xib_no_storyboard_oc;
@@ -199,8 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD289691B11AD28009F3804 /* Main.storyboard in Resources */,
-				FDD2896E1B11AD28009F3804 /* LaunchScreen.xib in Resources */,
+				FDD289871B11AD6B009F3804 /* ViewController.xib in Resources */,
 				FDD2896B1B11AD28009F3804 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD289661B11AD28009F3804 /* ViewController.m in Sources */,
+				FDD289861B11AD6B009F3804 /* ViewController.m in Sources */,
 				FDD289631B11AD28009F3804 /* AppDelegate.m in Sources */,
 				FDD289601B11AD28009F3804 /* main.m in Sources */,
 			);
@@ -242,25 +238,6 @@
 			targetProxy = FDD289741B11AD28009F3804 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FDD289671B11AD28009F3804 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDD289681B11AD28009F3804 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FDD2896C1B11AD28009F3804 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDD2896D1B11AD28009F3804 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FDD2897B1B11AD28009F3804 /* Debug */ = {
